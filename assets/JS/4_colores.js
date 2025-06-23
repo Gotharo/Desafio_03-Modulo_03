@@ -3,10 +3,6 @@ const btnRed = document.querySelector(".red");
 const btnGreen = document.querySelector(".green");
 const btnYellow = document.querySelector(".yellow");
 
-let bgnBlack = false;
-
-
-
 function toggleBtn(element, color, text) {
    if (element.style.backgroundColor === "black") {
         element.style.backgroundColor = color;

@@ -1,6 +1,7 @@
 const keyDown = document.querySelector(".key");
 const newDiv = document.querySelector("#new-div");
 
+
 document.addEventListener('keydown', function (event) {
 
 switch (event.key) {
